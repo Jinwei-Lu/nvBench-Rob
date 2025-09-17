@@ -8,10 +8,10 @@ import pickle
 import time
 import os
 
-openai.api_base = "https://openkey.cloud/v1"
+openai.api_base = "xxx"
 
 # 替换为你的OpenAI API密钥
-openai.api_key = "sk-u4QlUZW8nLtaiqyv40338f916f5a4d6c81B42aB83b6fE567"
+openai.api_key = "sk-xxx"
 
 db_ann_file_path = "../data/database_anno.json"
 data_path = "../data/{}/{}_result_debugged_by_ref_dvqs.json"
@@ -336,4 +336,5 @@ if __name__ == '__main__':
 
             with open(result_save_path.format(mode, mode), 'w') as f:
                 json.dump(data_new, f, indent=4)
+
             
