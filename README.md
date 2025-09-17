@@ -72,6 +72,18 @@ Each data sample contains:
 }
 ```
 
+### Code
+
+```
+├── generate/                    # RAG-based generation pipeline
+│   └── generate/
+│       ├── run_generate.sh      # Main execution script
+│       ├── generate_by_rag_nlq.py    # NLQ-based RAG generation
+│       ├── rag_dvqs.py          # DVQ similarity retrieval
+│       ├── debug_by_ref_dvqs.py # Reference-based debugging
+│       └── debug_by_db_ann.py   # Schema-aware correction
+```
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
