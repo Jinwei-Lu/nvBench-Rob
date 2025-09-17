@@ -4,10 +4,10 @@ import pandas as pd
 from tqdm import tqdm
 import time
 
-openai.api_base = "https://openkey.cloud/v1"
+openai.api_base = "xxx"
 
 # 替换为你的OpenAI API密钥
-openai.api_key = "sk-u4QlUZW8nLtaiqyv40338f916f5a4d6c81B42aB83b6fE567"
+openai.api_key = "sk-xxx"
 
 
 ask_schema = """#### Please generate detailed natural language annotations to the following database schemas.

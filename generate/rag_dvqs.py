@@ -8,10 +8,10 @@ import pickle
 import time
 import os
 
-openai.api_base = "https://openkey.cloud/v1"
+openai.api_base = "xxx"
 
 # 替换为你的OpenAI API密钥
-openai.api_key = "sk-u4QlUZW8nLtaiqyv40338f916f5a4d6c81B42aB83b6fE567"
+openai.api_key = "sk-xxx"
 
 embedding_file_path = "../data/vql_embedding.pkl"
 data_path = "../data/{}/{}_result_nlq_rag.json"

@@ -336,5 +336,4 @@ if __name__ == '__main__':
 
             with open(result_save_path.format(mode, mode), 'w') as f:
                 json.dump(data_new, f, indent=4)
-
             

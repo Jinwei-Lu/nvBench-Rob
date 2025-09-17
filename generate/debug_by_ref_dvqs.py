@@ -6,10 +6,10 @@ import time
 import re
 import os
 
-openai.api_base = "https://openkey.cloud/v1"
+openai.api_base = "xxx"
 
 # 替换为你的OpenAI API密钥
-openai.api_key = "sk-u4QlUZW8nLtaiqyv40338f916f5a4d6c81B42aB83b6fE567"
+openai.api_key = "sk-xxx"
 
 DATASET_SCHEMA = '../data/tables.json'
 db_ann_file_path = "../data/database_anno.json"
