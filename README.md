@@ -1,7 +1,6 @@
 # Towards Robustness of Text-to-Visualization Translation Against Lexical and Phrasal Variability
 
-[![IEEE Xplore](https://img.shields.io/badge/IEEE%20Xplore-11112835-blue)](https://ieeexplore.ieee.org/abstract/document/11112835)
-[![ICDE 2025](https://img.shields.io/badge/ICDE-2025-green)](https://ieeexplore.ieee.org/xpl/conhome/1000750/all-proceedings)
+[![ICDE 2025](https://img.shields.io/badge/ICDE-2025-green)](https://ieeexplore.ieee.org/abstract/document/11112835)
 
 This repository contains the dataset and code for the paper "Towards Robustness of Text-to-Visualization Translation Against Lexical and Phrasal Variability" accepted at ICDE 2025.
 
