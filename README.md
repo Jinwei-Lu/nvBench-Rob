@@ -4,24 +4,6 @@
 
 This repository contains the dataset and code for the paper "[Towards Robustness of Text-to-Visualization Translation Against Lexical and Phrasal Variability](https://ieeexplore.ieee.org/abstract/document/11112835)" accepted at "2025 IEEE 41st International Conference on Data Engineering (ICDE)".
 
-## 📖 Citation
-
-If you find this work useful, please cite our paper:
-
-```bibtex
-@INPROCEEDINGS{11112835,
-  author={Lu, Jinwei and Song, Yuanfeng and Zhang, Haodi and Zhang, Chen Jason and Wu, Kaishun and Wong, Raymond Chi-Wing},
-  booktitle={2025 IEEE 41st International Conference on Data Engineering (ICDE)},
-  title={Towards Robustness of Text-to-Visualization Translation Against Lexical and Phrasal Variability},
-  year={2025},
-  volume={},
-  number={},
-  pages={793-806},
-  keywords={Translation;Perturbation methods;Large language models;Retrieval augmented generation;Data visualization;Programming;Data engineering;Robustness;Data models;Generators;text-to-visualization;model robustness;large language model;retrieval-augmented generation;input variation},
-  doi={10.1109/ICDE65448.2025.00065}
-}
-```
-
 ## 📊 Dataset: nvBench-Rob
 
 nvBench-Rob is a robustness benchmark dataset for text-to-visualization translation, designed to evaluate model performance against lexical and phrasal variability in natural language queries.
@@ -87,3 +69,21 @@ Each data sample contains:
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📖 Citation
+
+If you find this work useful, please cite our paper:
+
+```bibtex
+@INPROCEEDINGS{11112835,
+  author={Lu, Jinwei and Song, Yuanfeng and Zhang, Haodi and Zhang, Chen Jason and Wu, Kaishun and Wong, Raymond Chi-Wing},
+  booktitle={2025 IEEE 41st International Conference on Data Engineering (ICDE)},
+  title={Towards Robustness of Text-to-Visualization Translation Against Lexical and Phrasal Variability},
+  year={2025},
+  volume={},
+  number={},
+  pages={793-806},
+  keywords={Translation;Perturbation methods;Large language models;Retrieval augmented generation;Data visualization;Programming;Data engineering;Robustness;Data models;Generators;text-to-visualization;model robustness;large language model;retrieval-augmented generation;input variation},
+  doi={10.1109/ICDE65448.2025.00065}
+}
+```
